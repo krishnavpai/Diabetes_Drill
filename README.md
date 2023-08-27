@@ -15,15 +15,24 @@ Welcome to **Diabetes Drill** - an Android app that empowers you to take charge 
 
 ## Technology Stack
 
-- **Frontend**: Our Android app is developed using the powerful Android Studio. The user interface is designed to be intuitive and user-friendly.
+Our application's foundation is built on a straightforward and organized technology stack that ensures accurate diabetes predictions:
 
-- **Backend**: The magic happens in the backend powered by Flask, a lightweight Python web framework. The machine learning model is seamlessly integrated, making predictions a breeze.
+- **Frontend Development**: The Android app is developed using Java within the Android Studio environment. This approach prioritizes user-friendliness, resulting in an interface that's intuitive and efficient, providing a seamless experience.
 
-- **Machine Learning**: Our prediction model is built using scikit-learn and TensorFlow, trained on a comprehensive dataset of over 2000 patients' attributes.
+- **Backend Infrastructure**: Our backend is developed using Flask, a Python framework known for its simplicity and effectiveness.To ensure the stability and scalability of our backend, it's hosted on the Render platform(free to use).
+
+- **Practical Machine Learning**: At the heart of our app is machine learning. Our model is constructed using industry-standard tools like scikit-learn. This model is shaped by a comprehensive dataset that includes various patient attributes, allowing it to make accurate predictions.
+
+By thoughtfully combining these elements, our technology stack ensures the optimal performance of Diabetes Predictor.
+
+![Postman](Post.png)
+Above is an example of a POST request to our backend. The request body contains the patient's attributes, and the response body contains the prediction.
+
+
 
 ## Fueling the Prediction
 
-Our model is fueled by an extensive dataset featuring data from over 2000 patients. Age, insulin level, glucose, blood pressure, and BMI form the building blocks of accurate predictions. We've fine-tuned the model to offer reliable predictions with minimal false positives.
+Our model is fueled by an extensive dataset [https://www.kaggle.com/datasets/mathchi/diabetes-data-setfeaturing] data from over 2000 patients. Age, insulin level, glucose, blood pressure, and BMI form the building blocks of accurate predictions. We've fine-tuned the model to offer reliable predictions with minimal false positives.
 
 ## The Diabetes Challenge
 
